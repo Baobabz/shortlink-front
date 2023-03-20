@@ -1,0 +1,7 @@
+version: "3"
+services:
+  shortlink-frontend:
+    build: .
+    container_name: shortlink-frontend
+    ports:
+      - "3000:3000"
