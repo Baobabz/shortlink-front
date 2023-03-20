@@ -1,31 +1,30 @@
-.App {
-  text-align: center;
-  line-height: 40px;
-}
+
 .result{
   width: 600px;
   height: 350px;
   border: 2px solid black;
   float:center;
 }
-.input{
-  width:500px;
-  height:50px;
-  border: 3px solid black;
-  border-radius: 50px;
-}
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.wrap{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100vh;
 }
 
-.green-nav {
+.contentWrap{
   display: flex;
-  background: lightgreen;
-  width: 100%;
-  color: white;
-  padding-left: 20px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
+
+body {
+  background-color: lightgreen;
+  height: 100%;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
