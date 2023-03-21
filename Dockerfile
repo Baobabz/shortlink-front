@@ -4,9 +4,9 @@ WORKDIR /app
 
 COPY . .
 
-RUN npm install
+RUN yarn 
 
-RUN npm run build
+RUN yarn build
 
 FROM node:lts-alpine
 
@@ -14,6 +14,6 @@ WORKDIR /app
 
 COPY --from=builder /app/build ./build
 
-RUN npm install -g serve
+RUN yarn global add serve
 
 CMD ["serve", "-s", "build"]
