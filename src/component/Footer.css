@@ -1,13 +1,13 @@
 .gray-nav {
-    display: flex;
-    background: lightgray;
-    width: 100%;
-    color: black;
-    padding-left: 20px;
-    vertical-align: middle;
-  }
+  display: flex;
+  background: lightgray;
+  width: 100%;
+  color: black;
+  padding-left: 20px;
+  vertical-align: middle;
+}
 
-  .GitLink {
-    text-align: right;
-    color: red;
-  }
+.GitLink {
+  text-align: right;
+  color: red;
+}

@@ -1,7 +1,7 @@
 .green-nav {
-    display: flex;
-    background: green;
-    width: 100%;
-    color: white;
-    padding-left: 20px;
-  }
+  display: flex;
+  background: green;
+  width: 100%;
+  color: white;
+  padding-left: 20px;
+}
