@@ -2,6 +2,7 @@ import React from "react";
 import { Background, LoadingText } from "./Styles";
 import Spinner from "./assets/Spinner.gif";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default () => {
   return (
     <Background>
