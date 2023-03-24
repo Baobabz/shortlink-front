@@ -30,3 +30,36 @@
   margin: auto;
   line-height: 70px;
 }
+
+.result {
+  width: 600px;
+  height: 350px;
+  border: 2px solid black;
+  float: center;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: lightgreen;
+}
+
+.contentWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  background-color: white;
+}
+
+.contentWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
