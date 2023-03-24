@@ -5,6 +5,8 @@
   color: black;
   padding-left: 20px;
   vertical-align: middle;
+  position: relative;
+  transform: translatY(-100%);
 }
 
 .GitLink {
